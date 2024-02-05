@@ -1,0 +1,42 @@
+.plants-cont{
+display: grid;
+grid-template-columns: .3fr .3fr .3fr;
+justify-items: center;
+grid-gap: 10px;
+}
+.checkout-cont{
+
+    width:100%;
+    height:100%;
+    display: flex;
+
+}
+.checkout-cont>img{
+    height: 100%;
+    width : 50%;
+}
+.plant-card >img{
+    width:100%;
+    cursor:pointer;
+    
+    height: 80%;
+}
+.plant-card:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 4px 3px grey;
+    border-radius: 10%;
+}
+.plant-card{
+
+    width:200px;
+    height: 200px;
+    background-color: rgb(255, 249, 241);
+    position: relative;
+}
+.pcard{
+
+    background-color: green;
+    height:150px;
+    width:150px;
+    margin:auto;
+}

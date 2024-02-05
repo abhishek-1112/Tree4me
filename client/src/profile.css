@@ -1,0 +1,68 @@
+.profile{
+padding-top: 40px;
+    width: 60vw;
+    height: 100vh;
+    margin-inline:auto;
+line-height: 2px;
+overflow-y: scroll;
+
+    /* background-color: aqua  ; */
+/* margin-bottom: 30px  ; */
+}
+.profile::-webkit-scrollbar {
+    width: 0px;
+}
+ 
+.profile::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.profile::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.post-cont{
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid black */
+    /* margin-bottom: 30px; */
+}
+.post-card{
+    width : 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid grey; */
+}
+
+.post-card > img{
+    width:400px;
+    height: 350px;
+
+}
+.uplants-cont{
+ 
+    
+border-top: .5px solid grey;
+
+}
+.profile-cont{
+
+display : grid;
+grid-template-columns: .3fr .7fr;
+/* margin-bottom: 30px; */
+
+}
+.profile-det{
+display:flex;
+flex-direction: column;
+margin-bottom: 30px;
+}
+.profile-cont > img{
+    width: 120px;
+    margin-inline: auto;
+    height : 120px;
+    border-radius: 100%;
+    background-color: rgb(38, 55, 70);
+    /* background-image: url(https://www.freeiconspng.com/thumbs/profile-icon-png/png-file-png-file-png-file-png-file-png-file-27.png); */
+}
